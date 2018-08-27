@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.space{
+    height: 70px;
+}
+
+/* Footer tasarımları */
+.foot-ul{
+    text-decoration: none;
+    list-style: none;
+}

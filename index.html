@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Site karakter kodlama yöntemi utf-8 olarak seçilir-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Arama motorları için meta bilgileri-->
+    <meta name="description" content="Bu statik site Bootstrap kullanımını yeni öğrenenler için basit düzeyde tasarlanmıştır. Sadece menü, jumbotron, gridler, inputs ve table özellikleri kullanılarak hazırlanmıştır.">
+    <meta name="author" content="Bayram Uluad - web 42">
+    <!--Site başlığı-->
+    <title>Bootstrap ile yapılan site</title>
+    <!--Bootstrap css dosyasını internet üzerinden çağırırız-->
+    <link rel="stylesheet" href="css/non-change/bootstrap.min.css">
+    <!--Internet Explorer 10 hatasını gidermek için bu css düzenlemesini çağırıyoruz-->
+    <link rel="stylesheet" href="css/non-change/ie10-viewport-bug-workaround.css">
+    <!--Kendi düzenleme ve sınıflarımızın olduğu kodları da bu dosyaya yazar ve oradan çağırırız-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">Navbar</a>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0" name="search">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search_input">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="search_submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Menü ile section arasındaki mesafeyi ayarlamak için bırakılan boşluk-->
+    <div class="space"></div>
+
+    <main>
+        <div class="container-fluid container">
+            <div class="jumbotron">
+                <h1>Merhaba jumbotron!</h1>
+                <p>Jumbotron içerisindeyiz. Burayı yapmak için <code>div</code> içerisine <code>class="jumbotron"</code> eklememiz yeterlidir.</p>
+                <hr class="my-4">
+                <div class="btn btn-primary">Bu bir buton</div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="foot-ul">
+                        <li><a href="#">Anasayfa</a></li>
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">İletişim</a></li>
+                        <li><a href="#">Falan filan</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="foot-ul">
+                        <li><a href="https://www.facebook.com">Facebook</a></li>
+                        <li><a href="https://www.twitter.com">Twitter</a></li>
+                        <li><a href="https://www.instagram.com">Instagram</a></li>
+                        <li><a href="https://www.youtube.com">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="foot-ul">
+                        <li><a href="">W3 schools</a></li>
+                        <li><a href="">Get Bootstrap</a></li>
+                        <li><a href="">Codepen io</a></li>
+                        <li><a href="">Vektörel bilişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            Tüm hakları gizlidir.
+        </div>
+    </footer>
+</body>
+</html>
